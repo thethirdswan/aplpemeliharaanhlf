@@ -1,0 +1,6 @@
+footer {
+    width: 100vw;
+    background-color: gray;
+    position: fixed;
+    bottom: 0;
+}
