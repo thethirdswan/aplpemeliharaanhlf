@@ -1,10 +1,10 @@
-import './App.css';
+import './css/App.css';
 
 function App() {
   return (
     <div>
-      <button className="member">Daftar Member</button>
-      <button className="inventaris">Edit Inventaris</button>
+      <a href="/member"><button className="member btn btn-primary">Daftar Member</button></a>
+      <a href="/inventaris"><button className="inventaris btn btn-primary">Edit Inventaris</button></a>
     </div>
   );
 }

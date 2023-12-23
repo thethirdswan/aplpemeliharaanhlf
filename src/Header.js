@@ -1,4 +1,4 @@
-import './Header.css';
+import './css/Header.css';
 import './Herbalife.jpg';
 
 export default function Header() {
