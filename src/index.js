@@ -21,7 +21,7 @@ root.render(
       <Routes>
         <Route exact path="/" element={<App />} />
         <Route path="/member" element={<Member />} />
-        <Route path="inventaris" element={<Inventaris />} />
+        <Route path="/inventaris" element={<Inventaris />} />
       </Routes>
     </Router>
     <Footer />
