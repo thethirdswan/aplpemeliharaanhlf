@@ -1,5 +1,4 @@
-import './css/Header.css';
-import './Herbalife.jpg';
+import '../css/Header.css';
 
 export default function Header() {
     return (
