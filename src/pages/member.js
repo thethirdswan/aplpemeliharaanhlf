@@ -1,11 +1,10 @@
-import '../css/member.css'
 import Navigation from '../components/Nav';
 
 export default function Member() {
     return (
         <div className="membercon">
-            <Navigation />
             <h3 style={{textAlign: "center"}}>Daftar Member</h3>
+            <Navigation />
             <table>
                 <tr>
                     <th>Kode Member</th>

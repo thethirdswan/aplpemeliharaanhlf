@@ -12,3 +12,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  text-align: center;
+  background-color: aqua;
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+.member {
+  position: absolute;
+  left: 35vw;
+}
+
+.inventaris {
+  position: absolute;
+  right: 35vw;
+}
+
+.navigation {
+  padding: 20px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  height: 60vh;
+  margin-right: 5px;
+}
+
+.navigation > a > button {
+  margin-bottom: 20px;
+}
+
+.membercon {
+  margin: 20px;
+}
+
+.inventariscon {
+  margin: 20px;
+}
+
+table, th, tr, td {
+  border: 1px solid;
+}
+
+footer {
+  width: 100vw;
+  background-color: gray;
+  position: fixed;
+  bottom: 0;
+}
