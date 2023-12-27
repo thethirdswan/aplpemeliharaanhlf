@@ -1,8 +1,10 @@
 import '../css/inventaris.css';
+import Navigation from '../components/Nav';
 
 export default function Inventaris() {
     return (
-        <div>
+        <div className="inventariscon">
+            <Navigation />
             <h3 style={{textAlign: "center"}}>Inventaris</h3>
             <table>
                 <tr>
