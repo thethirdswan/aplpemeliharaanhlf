@@ -60,6 +60,11 @@ h1, h2 {
   width: 108px;
 }
 
+.buttonmem > button {
+  margin-bottom: 20px;
+  width: 134px;
+}
+
 table, th, tr, td {
   border: 1px solid;
   padding: 2px;
