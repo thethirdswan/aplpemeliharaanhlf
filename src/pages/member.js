@@ -20,7 +20,7 @@ export default function Member() {
                     <div className="buttonmem float-end p-3">
                         <button className="btn btn-primary">Tambahkan</button><br/>
                         <button className="btn btn-primary">Edit Member</button><br/>
-                        <button className="btn btn-primary">Hapus Member</button><br/>
+                        <button className="btn btn-primary text-nowrap">Hapus Member</button><br/>
                     </div>
                 </div>
                 <table>
